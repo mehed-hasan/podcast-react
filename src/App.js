@@ -12,7 +12,6 @@ import AOS from "aos";
 import './css/parallax.css';
 import './js/parallax.js';
 import './js/chorki.js';
-import './css/preloader.css';
 // import './js/preloader.js';
 
 
