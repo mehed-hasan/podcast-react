@@ -13,10 +13,7 @@ import { useState } from "react";
 
 function EpisodeInfo() {
     let params = useParams();
- 
-
-
-  let singleEpisode =   recentEpisodes.find(item => {return item.id == params.id});
+    let singleEpisode =   recentEpisodes.find(item => {return item.id == params.id});
 
   const [isPlaying, setisPlaying] = useState(false);
   const audio = new Audio(audio_file);

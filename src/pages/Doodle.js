@@ -15,12 +15,11 @@ function Doodle() {
 
         // Dynamic routing started 
         const pathName = window.location.pathname;
-        let pageName = pathName == '/' ? "/home" : pathName;
-        console.log(pageName);
-        document.title = "Podcast"  + pageName;
+        let path = pathName.split('/');
+        let pageName = pathName == '/' ? " || Home" : ' || '+path[1][0].toUpperCase()+path[1].substring(1);
+        document.title = "Podcast" + pageName;
         // Dynamic routing ended 
         window.scrollTo(0, 0)
-  
     });
     return ( 
 
