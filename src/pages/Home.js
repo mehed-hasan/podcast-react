@@ -8,20 +8,11 @@ import Sponsor from "../components/Home/Sponsor";
 import Article from "../components/Home/Article";
 import '../css/index.css'; 
 import '../js/test.js';
-import { useEffect } from "react";
+import useTitle from "../hooks/useTitle";
 
 function Index() {
 
-    useEffect(()=>{
-
-        const pathName = window.location.pathname;
-        let path = pathName.split('/');
-        let pageName = pathName == '/' ? " || Home" : ' || '+path[1][0].toUpperCase()+path[1].substring(1);
-        document.title = "Podcast" + pageName;
-        // Dynamic routing ended 
-        window.scrollTo(0, 0)
-
-    });
+    useTitle('Home');
 
     return (   
       

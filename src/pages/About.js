@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import AboutHero from "../components/About/AboutHero";
 import Comments from "../components/About/Comments";
 import Contact from "../components/About/Contact";
@@ -10,19 +9,11 @@ import Banner1 from "../components/Banners/Banner1";
 
 import SupportSlider from "../components/Home/SupportSlider";
 import '../css/about.css';
+import useTitle from "../hooks/useTitle";
 
 function About() {
 
-   useEffect(()=>{
-
-      const pathName = window.location.pathname;
-      let path = pathName.split('/');
-      let pageName = pathName == '/' ? " || Home" : ' || '+path[1][0].toUpperCase()+path[1].substring(1);
-      document.title = "Podcast" + pageName;
-      // Dynamic routing ended 
-      window.scrollTo(0, 0)
-
-  });
+   useTitle('About Us');
 
     return ( 
 
