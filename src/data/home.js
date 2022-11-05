@@ -20,7 +20,7 @@ const services = [
     {   id:1,
         name:"Topic by Request",
         details:"Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.",
-        image:"images/services/Scribble.png"
+        image:"Scribble.png"
     },
 
     
@@ -28,35 +28,35 @@ const services = [
         id:2,
         name:"Request by Service",
         details:"Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.",
-        image:"images/services/Shining stars.png"
+        image:"Shining stars.png"
     },
 
     {   
         id:3,
         name:"One by One",
         details:"Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.",
-        image:"images/services/Face 1.png"
+        image:"Face 1.png"
     },
 
     {   
         id:4,
         name:"Request by Process",
         details:"Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.",
-        image:"images/services/Coin.png"
+        image:"Coin.png"
     },
 
     {   
         id:5,
         name:"Static Progression",
         details:"Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.",
-        image:"images/services/Fire.png"
+        image:"Fire.png"
     },
 
     {   
         id:6,
         name:"Important Suggetion",
         details:"Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.",
-        image:"images/services/Star.png"
+        image:"Star.png"
     },
 
 
@@ -69,7 +69,7 @@ const  recentEpisodes= [
         episode_no:1,
         title:"Are you a Perplexed Mind Person?",
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
-        cardThumbnail:"images/cards/card_img.png",
+        cardThumbnail:"card_img.png",
         cat:"Women’s Rights",
         cardLink:"#",
         link1:"#",
@@ -77,12 +77,12 @@ const  recentEpisodes= [
         hostedBy:"John Smith",
         hoster:[
             {   id:1,
-                image:"../../images/avatar/avatar1.png",
+                image:"avatar1.png",
                 profileLink:"#"
             },
             {   
                 id:2,
-                image:"../../images/avatar/avatar2.png",
+                image:"avatar2.png",
                 profileLink:"#"
             }
         ]
@@ -93,7 +93,7 @@ const  recentEpisodes= [
         episode_no:2,
         title:"Are you a Perplexed Mind Person?",
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
-        cardThumbnail:"images/cards/card_img2.png",
+        cardThumbnail:"card_img2.png",
         cat:"Tesla Autopilot",
         type:'business',
         cardLink:"#",
@@ -102,11 +102,11 @@ const  recentEpisodes= [
         hostedBy:"Abu Bokor",
         hoster:[
             {   id:1,
-                image:"../../images/avatar/avatar1.png",
+                image:"avatar1.png",
                 profileLink:"#"
             },
             {   id:2,
-                image:"../../images/avatar/avatar2.png",
+                image:"avatar2.png",
                 profileLink:"#"
             }
         ]
@@ -118,7 +118,7 @@ const  recentEpisodes= [
         episode_no:3,
         title:"Are you a Perplexed Mind Person?",
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
-        cardThumbnail:"images/cards/card_img3.png",
+        cardThumbnail:"card_img3.png",
         type:'business',
         cardLink:"#",
         cat:"Self–confidence",
@@ -127,11 +127,11 @@ const  recentEpisodes= [
         hostedBy:"Ahmad",
         hoster:[
             {   id:1,
-                image:"../../images/avatar/avatar1.png",
+                image:"avatar1.png",
                 profileLink:"#"
             },
             {   id:2,
-                image:"../../images/avatar/avatar2.png",
+                image:"avatar2.png",
                 profileLink:"#"
             }
         ]
@@ -143,7 +143,7 @@ const  recentEpisodes= [
         episode_no:4,
         title:"Are you a Perplexed Mind Person?",
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
-        cardThumbnail:"images/cards/card_img4.png",
+        cardThumbnail:"card_img4.png",
         type:'comedy',
         cardLink:"#",
         cat:"Perplexed Mind",
@@ -152,11 +152,11 @@ const  recentEpisodes= [
         hostedBy:"Mehedi Hasan",
         hoster:[
             {   id:1,
-                image:"../../images/avatar/avatar1.png",
+                image:"avatar1.png",
                 profileLink:"#"
             },
             {   id:2,
-                image:"../../images/avatar/avatar2.png",
+                image:"avatar2.png",
                 profileLink:"#"
             }
         ]
@@ -168,7 +168,7 @@ const  recentEpisodes= [
         episode_no:5,
         title:"Are you a Perplexed Mind Person?",
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
-        cardThumbnail:"images/cards/card5.png",
+        cardThumbnail:"card5.png",
         cat : "Self–confidence",
         type:'education',
         cardLink:"#",
@@ -177,11 +177,11 @@ const  recentEpisodes= [
         hostedBy:"John Law",
         hoster:[
             {   id:3,
-                image:"../../images/avatar/avatar1.png",
+                image:"avatar1.png",
                 profileLink:"#"
             },
             {   id:4,
-                image:"../../images/avatar/avatar2.png",
+                image:"avatar2.png",
                 profileLink:"#"
             }
         ]
@@ -192,7 +192,7 @@ const  recentEpisodes= [
         episode_no:6,
         title:"Are you a Perplexed Mind Person?",
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
-        cardThumbnail:"images/cards/card_img2.png",
+        cardThumbnail:"card_img2.png",
         cat:"Inventions",
         type:'health',
         cardLink:"#",
@@ -201,11 +201,11 @@ const  recentEpisodes= [
         hostedBy:"John Smith",
         hoster:[
             {   id:1,
-                image:"../../images/avatar/avatar1.png",
+                image:"avatar1.png",
                 profileLink:"#"
             },
             {   id:2,
-                image:"../../images/avatar/avatar2.png",
+                image:"avatar2.png",
                 profileLink:"#"
             }
         ]
@@ -271,7 +271,7 @@ const articles =[
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris..",
         publishedDate: "Sep 14, 2021",
         type:'business',
-        thumbnail:"images/cards/card2_1.png",
+        thumbnail:"card2_1.png",
         tags:[
             {   id:1,
                 tagName : 'business',
@@ -292,7 +292,7 @@ const articles =[
         details:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris..",
         publishedDate: "Aug 20, 2021",
         type:'comedy',
-        thumbnail:"images/cards/card2_2.png",
+        thumbnail:"card2_2.png",
         tags:[
             {   id:1,
                 tagName : 'business',

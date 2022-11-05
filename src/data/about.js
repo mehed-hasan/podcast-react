@@ -32,8 +32,8 @@ const podcastInfo =[
 const hostInfo =[
     {
         id:1,
-        image:"images/cards/Face 1.png",
-        thbumbnail:"images/cards/speaker.png",
+        image:"Face 1.png",
+        thbumbnail:"speaker.png",
         hosterName:"",
         hostTitle:"Test ",
         details:"Lorem ipsum dolor sit amet con sectet piscing elit, sed do eiusmod tempor rarylet podofcast.",
@@ -44,8 +44,8 @@ const hostInfo =[
 
     {
         id:2,
-        image:"images/cards/Face 1.png",
-        thbumbnail:"images/cards/speaker.png",
+        image:"Face 1.png",
+        thbumbnail:"speaker.png",
         hosterName:"",
         hostTitle:"Test ",
         details:"Lorem ipsum dolor sit amet con sectet piscing elit, sed do eiusmod tempor rarylet podofcast.",
@@ -57,8 +57,8 @@ const hostInfo =[
 
     {
         id:3,
-        image:"images/cards/Face 1.png",
-        thbumbnail:"images/cards/speaker.png", 
+        image:"Face 1.png",
+        thbumbnail:"speaker.png", 
         hosterName:"",
         hostTitle:"Test ",
         details:"Lorem ipsum dolor sit amet con sectet piscing elit, sed do eiusmod tempor rarylet podofcast.",
@@ -119,7 +119,7 @@ const history = [
 `
                     <p>
                         Lorem ipsum dolor sit amet, <b>consectetur adipiscing </b> elit. Quam pellentesque at bibendum euismod tellus duis cursus dignissim odio. Sit vulputate et integer in. Sit vel, senectus iaculis morbi. <b>Amet</b> interdum imperdiet laoreet morbi tincidunt fermentum, libero. Ante enim eget. 
-                        Viverra at porttitor accumsan. <a className="text-black text-decoration-underline" href="">Orci non here</a>
+                        Viverra at porttitor accumsan. <Link className="text-black text-decoration-underline" to="">Orci non here</Link>
                       </p>
 `
 ];

@@ -7,12 +7,11 @@ import Episodes from "../components/Home/Episodes";
 import Sponsor from "../components/Home/Sponsor";
 import Article from "../components/Home/Article";
 import '../css/index.css'; 
-import '../js/test.js';
-import useTitle from "../hooks/useTitle";
+// import useTitle from "../hooks/useTitle";
 
 function Index() {
 
-    useTitle('Home');
+    // useTitle('Home');
 
     return (   
       

@@ -15,7 +15,7 @@ function Card2({grid,data}) {
                         <div className="card_body ">
                             <div className="row">
                             <div className="col-12 ">
-                                <div className="left_img"><img className="w-100 img-fluid" src={data.thumbnail} alt=""/></div>
+                                <div className="left_img"><img className="w-100 img-fluid" src={require(`../../images/cards/${data.thumbnail}`)} alt=""/></div>
                             </div>
                             <div className="col-12">
                                 <div className="card_info">

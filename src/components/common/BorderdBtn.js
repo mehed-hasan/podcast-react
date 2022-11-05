@@ -1,8 +1,7 @@
+
 function BorderedBtn({btnText,link}) {
     return ( 
-        <>
-            <a href={link} className="bordered_btn">{btnText}</a>
-        </>
+            <a role={"button"} href={link} className="bordered_btn">{btnText}</a>
      );
 }
 

@@ -4,6 +4,7 @@ import youtubeIcon from '../../components/images/icon/youtube.png';
 import bannerLeftImage from '../../components/images/banner/mobile1.png';
 import bannerRightImage from '../../components/images/banner/mobile2.png'
 import Button from '../common/Button';
+import { Link } from 'react-router-dom';
 
 
 
@@ -36,16 +37,16 @@ function Banner1() {
   
             <div className="banner_actions text-center">
               <div>
-                <Button link={'/#'} href="ff" btnColors={'yellow_btn text-dark'} btnText={'Download Now'} />
+                <Button link={'/#'} btnColors={'yellow_btn text-dark'} btnText={'Download Now'} />
 
                 <p className="text-dark mt-4">Content also available on:</p>
 
               </div>
               
               <div className="mt-3 d-flex justify-content-center gap-2">
-                <a href="/#"><img src={podcastIcon} alt={podcastIcon}/></a>
-                <a href="/#"><img src={shopifyIcon} alt={podcastIcon}/></a>
-                <a href="/#"><img src={youtubeIcon} alt={podcastIcon}/></a>
+                <Link to="/#"><img src={podcastIcon} alt={podcastIcon}/></Link>
+                <Link to="/#"><img src={shopifyIcon} alt={podcastIcon}/></Link>
+                <Link to="/#"><img src={youtubeIcon} alt={podcastIcon}/></Link>
               </div>
             </div>
           </div>

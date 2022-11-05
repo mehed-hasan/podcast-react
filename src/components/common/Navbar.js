@@ -1,39 +1,54 @@
-import navbarLogo from './Logo.png';
-import {BrowserRouter,Routes,Route,Link} from "react-router-dom";
-import { useEffect, useState } from 'react';
-
-
+import navbarLogo from "./Logo.png";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 function Navbar() {
+  return (
+    <>
+      <section id="navbar">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div className="container-fluid">
+            <Link className="navbar-brand" to="/">
+              <img className="img-fluid" src={navbarLogo} alt="" />
+            </Link>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+              style={{ height: "100%" }}
+            >
+              <ul className="navbar-nav mx-auto mb-2 mb-lg-0 d-flex ">
+                <li className="nav-item">
+                  <Link className="nav-link active" aria-current="page" to="/">
+                    Home
+                  </Link>
+                </li>
 
-
-
-    return ( 
-
-        <>
-                <section id="navbar">
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                        <div className="container-fluid">
-                        <a className="navbar-brand" href="/"><img className="img-fluid" src={navbarLogo} alt=""/></a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{height:"100%"}}>
-                            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 d-flex ">
-
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to='/'>Home</Link>
-                            </li>
-
-                            <li className="nav-item">
-                                <Link className="nav-link " aria-current="page" to={'/episodes/'+1} >Episodes</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link  className="nav-link" to='/about'>About</Link>
-                            </li>
-                            {/* <li className="nav-item dropdown">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link "
+                    aria-current="page"
+                    to={"/episodes/" + 1}
+                  >
+                    Episodes
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/about">
+                    About
+                  </Link>
+                </li>
+                {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 More
@@ -56,39 +71,59 @@ function Navbar() {
                                 
                             </li>  */}
 
-                            <li className="nav-item position-relative">
-                                <Link to="/news" className="nav-link ">News &amp; Blog</Link>
-                            </li>
+                <li className="nav-item position-relative">
+                  <Link to="/news" className="nav-link ">
+                    News &amp; Blog
+                  </Link>
+                </li>
 
-                            <li className="nav-item position-relative">
-                                <Link to="/doodle" className="nav-link ">Doodle</Link>
-                            </li>
+                <li className="nav-item position-relative">
+                  <Link to="/doodle" className="nav-link ">
+                    Doodle
+                  </Link>
+                </li>
 
-                            <li className="nav-item position-relative">
-                                <Link to={'/episodes/'+1} className="nav-link ">Live <sup className="badge position-absolute">New</sup></Link>
-                            </li>
-                            </ul>
+                <li className="nav-item position-relative">
+                  <Link to={"/episodes/" + 1} className="nav-link ">
+                    Live <sup className="badge position-absolute">New</sup>
+                  </Link>
+                </li>
+              </ul>
 
-                            <div className="right_side_nav ">
-
-                            <Link style={{borderBottom:"3px solid #4A5568"}} className="text-dark fw-bold pb-1 me-4" to={'/episodes/'+1} >RECENT
-                                EPISODES</Link>
-                            <a className="them_btn text-dark yellow_btn text-capitalize" href="">Sign Up
-                                <svg className="ms-2" width="18" height="10" viewBox="0 0 18 10" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M12.7046 0.26716L17.4375 5.00004L12.7046 9.73291L11.9091 8.93739L15.284 5.5625L0.589361 5.5625V4.4375L15.2839 4.4375L11.9091 1.06268L12.7046 0.26716Z"
-                                    fill="#4A5568" />
-                                </svg>
-
-                            </a>
-                            </div>
-                        </div>
-                        </div>
-                    </nav>
-                </section>
-        </>
-     );
+              <div className="right_side_nav ">
+                <Link
+                  style={{ borderBottom: "3px solid #4A5568" }}
+                  className="text-dark fw-bold pb-1 me-4"
+                  to={"/episodes/" + 1}
+                >
+                  RECENT EPISODES
+                </Link>
+                <Link
+                  className="them_btn text-dark yellow_btn text-capitalize"
+                  to=""
+                >
+                  Sign Up
+                  <svg
+                    className="ms-2"
+                    width="18"
+                    height="10"
+                    viewBox="0 0 18 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.7046 0.26716L17.4375 5.00004L12.7046 9.73291L11.9091 8.93739L15.284 5.5625L0.589361 5.5625V4.4375L15.2839 4.4375L11.9091 1.06268L12.7046 0.26716Z"
+                      fill="#4A5568"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </>
+  );
 }
 
 export default Navbar;
